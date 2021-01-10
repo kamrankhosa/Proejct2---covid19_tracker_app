@@ -16,7 +16,7 @@ function App() {
     <div className="container">
       <Header></Header>
       <Cards GetData={data} />
-      <Countries />
+      {/* <Countries /> */}
       <Graph />
     </div>
   );
