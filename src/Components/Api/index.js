@@ -11,3 +11,9 @@ export async function getDailyRecord() {
         .then(response => response.json());
     return response;
 }
+
+export async function SelectedCountries() {
+    let response = await fetch('https://covid19.mathdro.id/api/countries')
+        .then(response => response.json());
+    return response;
+}
